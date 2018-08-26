@@ -30,7 +30,7 @@ public class MusicasController {
 	public String listar(Model model) {
 		List<Musica> musicas = repositorioMusica.findAll();
 		model.addAttribute("musicas", musicas);
-		return "musica.listar.tiles";
+		return "musicas.listar.tiles";
 	}
 	
 	@RequestMapping(value = "/adicionar", method = RequestMethod.GET)
@@ -47,7 +47,7 @@ public class MusicasController {
 			return "musicas.adicionar.tiles";
 		}
 		repositorioMusica.save(novaMusica);
-		return "redirect: /musicas/listar";
+		return "redirect:/musicas/listar";
 	}
 	
 	@RequestMapping(value = "/alterar/{id}", method = RequestMethod.GET)

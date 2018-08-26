@@ -6,7 +6,7 @@
 		<th>ID</th>
 		<th>Nome da música</th>
 		<th>Data de criação</th>
-		<th>Nom do álbum</th>
+		<th>Nome do álbum</th>
 		<th>Ações</th>
 	</thead>
 	<tbody>

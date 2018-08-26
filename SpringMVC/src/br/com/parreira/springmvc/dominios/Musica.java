@@ -37,7 +37,6 @@ public class Musica {
 	@Column(name = "mus_data_criacao", nullable = false)
 	@Temporal(TemporalType.DATE)
 	@DateTimeFormat(pattern = "dd/MM/yyyy")
-	@NotEmpty(message = "A data de criação é obrigatória")
 	@NotNull(message = "A data de criação é obrigatória")
 	private Date dataCriacao;
 	

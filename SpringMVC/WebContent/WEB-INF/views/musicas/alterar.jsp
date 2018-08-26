@@ -2,10 +2,10 @@
 	pageEncoding="ISO-8859-1"%>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
 <%@ taglib uri="http://www.springframework.org/tags/form" prefix="form"%>
-<c:url var="actionAdicionar" value="/musicas/editar"></c:url>
+<c:url var="actionAlterar" value="/musicas/alterar"></c:url>
 <h2>Edição da música "${musica.nome}</h2>
 <br />
-<form:form action="${actionEditar}" method="post"
+<form:form action="${actionAlterar}" method="post"
 	modelAttribute="musica">
 	<div class="row">
 		<div class="col-md-6 col-xs-12">

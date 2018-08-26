@@ -10,8 +10,8 @@
           Álbuns
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-          <a class="dropdown-item" href="#">Listar</a>
-          <a class="dropdown-item" href="#">Adicionar</a>
+          <a class="dropdown-item" href="/SpringMVC/albuns/listar">Listar</a>
+          <a class="dropdown-item" href="/SpringMVC/albuns/adicionar">Adicionar</a>
         </div>
       </li>
     </ul>
@@ -21,8 +21,8 @@
           Músicas
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-          <a class="dropdown-item" href="#">Listar</a>
-          <a class="dropdown-item" href="#">Adicionar</a>
+          <a class="dropdown-item" href="/SpringMVC/musicas/listar">Listar</a>
+          <a class="dropdown-item" href="/SpringMVC/musicas/adicionar">Adicionar</a>
         </div>
       </li>
     </ul>
