@@ -61,7 +61,7 @@ public class AlbunsController {
 		return "redirect:/albuns/listar";
 	}
 	
-	@RequestMapping(value = "/excluir", method = RequestMethod.GET)
+	@RequestMapping(value = "/excluir{id}", method = RequestMethod.GET)
 	public String excluir(@PathVariable("id") Long id) {
 		repositorio.delete(id);
 		return "redirect:/albuns/listar";
