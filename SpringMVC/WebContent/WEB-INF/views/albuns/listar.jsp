@@ -16,8 +16,8 @@
 					<td>${album.nome}</td>
 					<td>${album.anoLancamento}</td>
 					<td>
-						<a href="/albuns/alterar/${album.id}">Alterar</a> | 
-						<a href="/albuns/excluir/${album.id}">Excluir</a> | 
+						<a href="/SpringMVC/albuns/alterar/${album.id}" class="btn btn-primary">Alterar</a> 
+						<a href="/SpringMVC/albuns/excluir/${album.id}" class="btn btn-danger">Excluir</a> 
 					</td>
 				</tr>
 			</c:forEach>
@@ -25,4 +25,4 @@
 	</tbody>
 </table>
 <br />
-<a href="/albuns/adicionar" class="btn btn-default">Adicionar novo álbum</a>
+<a href="/SpringMVC/albuns/adicionar" class="btn btn-success">Adicionar novo álbum</a>
