@@ -19,6 +19,8 @@ import javax.validation.constraints.Size;
 import org.hibernate.validator.constraints.NotEmpty;
 import org.springframework.format.annotation.DateTimeFormat;
 
+import com.fasterxml.jackson.annotation.JsonManagedReference;
+
 @Entity
 @Table(name = "mus_musicas")
 public class Musica {
@@ -40,6 +42,7 @@ public class Musica {
 	@NotNull(message = "A data de criação é obrigatória")
 	private Date dataCriacao;
 	
+	@JsonManagedReference
 	@ManyToOne(fetch = FetchType.EAGER)
 	@JoinColumn(name = "alb_id")
 	private Album album;
