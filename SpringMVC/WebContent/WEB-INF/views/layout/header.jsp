@@ -26,5 +26,16 @@
         </div>
       </li>
     </ul>
+    <ul class="navbar-nav">
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Usuários
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="/SpringMVC/usuarios/listar">Listar</a>
+          <a class="dropdown-item" href="/SpringMVC/usuarios/adicionar">Adicionar</a>
+        </div>
+      </li>
+    </ul>
   </div>
 </nav>

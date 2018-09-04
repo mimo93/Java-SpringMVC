@@ -34,5 +34,14 @@
 		<definition name="musicas.listar.tiles" extends="layout.tiles">
 			<put-attribute name="tile" value="Spring MVC: Exibição de músicas"></put-attribute>
 			<put-attribute name="body" value="/WEB-INF/views/musicas/listar.jsp"></put-attribute>
+		</definition>	
+		<!-- ** Usuários -->
+		<definition name="usuarios.adicionar.tiles" extends="layout.tiles">
+			<put-attribute name="tile" value="Spring MVC: Adição de usuarios"></put-attribute>
+			<put-attribute name="body" value="/WEB-INF/views/usuarios/adicionar.jsp"></put-attribute>
+		</definition>
+		<definition name="usuarios.listar.tiles" extends="layout.tiles">
+			<put-attribute name="tile" value="Spring MVC: Exibição de usuários"></put-attribute>
+			<put-attribute name="body" value="/WEB-INF/views/usuarios/listar.jsp"></put-attribute>
 		</definition>		
 	</tiles-definitions>

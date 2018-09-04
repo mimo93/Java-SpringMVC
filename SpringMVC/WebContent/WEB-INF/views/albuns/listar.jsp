@@ -54,6 +54,7 @@
 								'	<td>' + 
 								'		<a href="/SpringMVC/albuns/alterar/' + album.id + '" class="btn btn-primary">Alterar</a>' +
 								'		<a href="/SpringMVC/albuns/excluir/' + album.id + '" class="btn btn-danger">Excluir</a>' +
+								'   </td>' +
 								'</tr>'
 						);
 					})

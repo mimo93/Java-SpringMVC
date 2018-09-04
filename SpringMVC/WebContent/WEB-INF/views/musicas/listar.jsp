@@ -58,6 +58,7 @@
 								'	<td>' + 
 								'		<a href="/SpringMVC/musicas/alterar/' + musica.id + '" class="btn btn-primary">Alterar</a>' +
 								'		<a href="/SpringMVC/musicas/excluir/' + musica.id + '" class="btn btn-danger">Excluir</a>' +
+								'   </td>' +
 								'</tr>'
 						);
 					})
