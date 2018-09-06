@@ -5,7 +5,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
 @Controller
-@RequestMapping("/SpringMVC/home")
+@RequestMapping("/home")
 public class HomeController {
 
 	@RequestMapping(value = "/login", method = RequestMethod.GET)
@@ -14,7 +14,7 @@ public class HomeController {
 	}
 	
 	@RequestMapping(value = "/bemvindo", method = RequestMethod.GET)
-	public String bemvindo() {
+	public String bemVindo() {
 		return "home.bemvindo.tiles";
 	}
 	
