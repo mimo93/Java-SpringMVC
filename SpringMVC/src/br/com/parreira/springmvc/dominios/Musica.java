@@ -30,16 +30,18 @@ public class Musica {
 	@Column(name = "mus_id")
 	private Long id;
 	
+	// DescriÃ§Ã£o da musica
 	@Column(name = "mus_nome", nullable = false, length = 10)
-	@Size(min = 3, max = 10, message = "O nome da música deve conter entre 3 e 10 caracteres.")
-	@NotEmpty(message = "O nome é obrigatório")
-	@NotNull(message = "O nome é obrigatório")
+	@Size(min = 3, max = 10, message = "O nome da mÃºsica deve conter entre 3 e 10 caracteres.")
+	@NotEmpty(message = "O nome Ã© obrigatÃ³rio")
+	@NotNull(message = "O nome Ã© obrigatÃ³rio")
 	private String nome;
 	
+	// Data de criacao
 	@Column(name = "mus_data_criacao", nullable = false)
 	@Temporal(TemporalType.DATE)
 	@DateTimeFormat(pattern = "dd/MM/yyyy")
-	@NotNull(message = "A data de criação é obrigatória")
+	@NotNull(message = "A data de criaÃ§Ã£o Ã© obrigatÃ³ria")
 	private Date dataCriacao;
 	
 	@JsonManagedReference
